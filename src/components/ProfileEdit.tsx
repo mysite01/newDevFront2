@@ -64,7 +64,13 @@ const UserEdit: React.FC<UserEditProps> = (props) => {
 
         // Navigation nach Speichern
         if (updateUser.fulfilled.match(updateUserData)) {
-            props.onProfileUpdate(updateUserData.payload as User);
+            const transformedPayload: User = {
+                idOfUser: updateUserData.payload._id,
+                name: updateUserData.payload.name,
+                email: updateUserData.payload.email,
+            };
+
+            props.onProfileUpdate(transformedPayload);
 
         } else {
             console.error("Error creating team:", updateUserData);
@@ -150,6 +156,12 @@ const UserEdit: React.FC<UserEditProps> = (props) => {
 };
 
 export default UserEdit;
+
+
+
+
+
+
 
 
 
