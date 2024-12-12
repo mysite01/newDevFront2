@@ -195,7 +195,7 @@ const SignupPage: React.FC = () => {
         <div id="UserManagementPageCreateComponent">
             <section className="wrapper">
                 <div className="container">
-                    <div className="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center" style={{ marginTop: "1.5rem" }}>
+                    <div className="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center" style={{ marginTop: "5.5rem" }}>
 
                         <form className="rounded bg-white shadow p-5" onSubmit={saveUser}>
                             <h3 className="text-dark fw-bolder fs-4 mb-2">Create an Account</h3>
