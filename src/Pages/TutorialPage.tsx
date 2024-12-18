@@ -151,7 +151,20 @@ const TutorialPage: React.FC = () => {
                 </p>
                 Spiel beenden
                 Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.
-
+                <video
+                    src={spielbeginnen}
+                    autoPlay
+                    loop
+                    muted
+                    style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
+                />
+                   <video
+                    src={endgame}
+                    autoPlay
+                    loop
+                    muted
+                    style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
+                />
             </section>
 
 
