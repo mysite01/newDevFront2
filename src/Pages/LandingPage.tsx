@@ -33,6 +33,10 @@ const LandingPage: React.FC = () => {
     setShowNameDialog(false);
   };
 
+  const handleTutorialClick = () => {
+    navigate('/tutorial'); // Navigiert zur Tutorial-Seite
+  };
+
   const handleSaveName = async () => {
     if (nickName.trim()) {
       const newPlayer = await dispatch(createNewPlayer({ nickName, host }));
@@ -66,8 +70,15 @@ const LandingPage: React.FC = () => {
 
           <JoinGame onClick={handleJoinGameStartClick} />
           <ReadQACode />
+          {/* Tutorial-Button */}
+          <button
+            className="btn btn-primary"
+            onClick={handleTutorialClick}
+            style={{ marginTop: "20px" }}
+          >
+            View Tutorial
+          </button>
         </div>
-
       </section>
     </div>
   );
