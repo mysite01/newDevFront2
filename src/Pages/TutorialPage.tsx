@@ -145,10 +145,10 @@ const TutorialPage: React.FC = () => {
                 Probiere einen der Pick Points zu Claimen. Du solltest eine Nachricht bekommen, mit der aktuellen Distanz zum Pick Point. 
                 </p>
                 <p>Nähere dich einem Pick Point um diesen zu Claimen und Punkte zu sammeln. </p>
-                <ul>
-                    <li>Du kannst mit dem Button “View Teams” die Teams und ihre Gesamtpunktzahl sehen.</li>
-                    <li>Spiel beenden</li>
-                </ul>
+                
+                <p>Du kannst mit dem Button “View Teams” die Teams und ihre Gesamtpunktzahl sehen. </p>
+                <p>Spiel beenden </p>
+                
                 <p>
                 Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.
                 </p>
