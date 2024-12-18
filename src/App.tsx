@@ -15,6 +15,7 @@ import RedirectHandler from './components/RedirectHandler';
 import MapPage from './Pages/MapPage';
 import ProfileDetail from './components/ProfileDetail';
 import GameOver from './Pages/GameOverPage';
+import Tutorial from './Pages/TutorialPage';
 
 const App: React.FC = () => {
   return (
@@ -31,6 +32,7 @@ const App: React.FC = () => {
             element={<GamePageUser idOfUser="" nickName={""} email={""} host />}
           />
           <Route path="/Signup" element={<Signup />} />
+          <Route path="/tutorial" element={<Tutorial />} />
           <Route path="/Map" element={<MapPage />} />
           <Route path="/gameOver" element={<GameOver />} />
           <Route path="/ReadQACode/:codeInvite" element={<ReadQACode />} />
