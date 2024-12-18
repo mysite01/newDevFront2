@@ -63,14 +63,14 @@ const TutorialPage: React.FC = () => {
           autoPlay
           loop
           muted
-          style={{ maxWidth: "100%", borderRadius: "8px" }}
+          style={{ maxWidth: "80%", maxHeight: "150px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
         />
          <video
           src={createteam}
           autoPlay
           loop
           muted
-          style={{ maxWidth: "100%", borderRadius: "8px" }}
+          style={{ maxWidth: "80%", maxHeight: "150px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
         />
         
         </ol>
