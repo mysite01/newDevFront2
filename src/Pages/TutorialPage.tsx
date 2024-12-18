@@ -59,18 +59,18 @@ const TutorialPage: React.FC = () => {
               Wenn alle Spieler beigetreten und in einem Team sind, startest du das Spiel über “Start Game”.
               </li>
               <video
-          src={createteam}
-          autoPlay
-          loop
-          muted
-          style={{ maxWidth: "100%", borderRadius: "8px" }}
-        />
-         <video
           src={hostgame}
           autoPlay
           loop
           muted
-          style={{ maxWidth: "100%", borderRadius: "8px" }}
+          style={{ maxWidth: "100%", borderRadius: "4px" }}
+        />
+         <video
+          src={createteam}
+          autoPlay
+          loop
+          muted
+          style={{ maxWidth: "100%", borderRadius: "4px" }}
         />
         
         </ol>
