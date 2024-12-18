@@ -158,7 +158,7 @@ const TutorialPage: React.FC = () => {
                     muted
                     style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
                 />
-                   <video
+                <video
                     src={endgame}
                     autoPlay
                     loop
