@@ -9,11 +9,7 @@ const TutorialPage: React.FC = () => {
         <h1>Willkommen zum Tutorial</h1>
         {/* Video oder GIF eingebettet */}
         <video
-          src={createteam}
-          autoPlay
-          loop
-          muted
-          style={{ maxWidth: "100%", borderRadius: "8px" }}
+         
         />
         
         <section style={{ marginTop: "20px" }}>
