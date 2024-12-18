@@ -74,15 +74,7 @@ const TutorialPage: React.FC = () => {
         />
         
         </ol>
-        <div style={{ marginTop: "20px", textAlign: "center" }}>
-          <img src={hostgame} alt="Host Game" style={{ maxWidth: "100%", borderRadius: "8px" }} />
-        </div>
-        <div style={{ marginTop: "20px", textAlign: "center" }}>
-          <img src={createteam} alt="Create Teams" style={{ maxWidth: "100%", borderRadius: "8px" }} />
-        </div>
-      </section>
-
-      <section style={{ marginTop: "20px" }}>
+       
           <h2>Spiel beenden</h2>
           <p>
             Wenn das Spiel beendet werden soll, kannst du es aus dem Spiel heraus mit “End Game” beenden.
