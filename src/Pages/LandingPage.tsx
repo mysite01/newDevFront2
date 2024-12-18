@@ -11,6 +11,7 @@ import HomePageImag from "../layout/image/homePage1.png";
 import "../layout/css/style.css";
 import ReadQACode from '../components/ReadQACode';
 import { useSelector } from 'react-redux';
+import { Button } from 'react-bootstrap';
 
 const LandingPage: React.FC = () => {
   const [showNameDialog, setShowNameDialog] = useState(false);
@@ -70,14 +71,15 @@ const LandingPage: React.FC = () => {
 
           <JoinGame onClick={handleJoinGameStartClick} />
           <ReadQACode />
-          {/* Tutorial-Button */}
-          <button
-            className="btn btn-primary"
+          {/* Tutorial-Button mit React-Bootstrap Style */}
+          <Button
+            variant="warning" // Gleicher Stil wie der JoinGame-Button
             onClick={handleTutorialClick}
-            style={{ marginTop: "20px" }}
+            data-testid="TutorialButton"
+            style={{ marginTop: "20px" }} // Optionaler Abstand
           >
             View Tutorial
-          </button>
+          </Button>
         </div>
       </section>
     </div>
