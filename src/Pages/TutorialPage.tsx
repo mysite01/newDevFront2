@@ -93,9 +93,27 @@ const TutorialPage: React.FC = () => {
           style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
         />
         </section>
-      </div>
-    );
-  };
-  
+
+        <section style={{ marginTop: "20px" }}>
+        <h2>Die Spieler</h2>
+        <p>Warte auf die Bestätigung des Hosts, dass das Spiel vorbereitet ist.</p>
+        <p>Auf dem Host-Bildschirm wird ein QR-Code angezeigt:</p>
+        <p>Scanne den QR-Code und folge dem Link.</p>
+        <p>Alternativ: nutze einen geteilten Link oder gib den Spiel-Code auf der App-Startseite ein.</p>
+        <p>
+          Solltest du nicht angemeldet sein, gib deinen gewünschten Spielernamen ins Eingabefeld ein und bestätige mit „Save“.
+        </p>
+        <p>Tritt einem Team bei:</p>
+        <ul>
+          <li>Drücke „Join Team“.</li>
+          <li>Du kannst dein Team wechseln mit „Leave Team“ und erneut „Join Team“.</li>
+        </ul>
+        <p>
+          Melde dem Host, wenn dein Team feststeht, und warte auf den Spielstart.
+        </p>
+      </section>
+    </div>
+  );
+};
 
 export default TutorialPage;
