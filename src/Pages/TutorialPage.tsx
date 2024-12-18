@@ -9,7 +9,7 @@ const TutorialPage: React.FC = () => {
         <h1>Willkommen zum Tutorial</h1>
         {/* Video oder GIF eingebettet */}
         <video
-          src={animation}
+          src={createteam}
           autoPlay
           loop
           muted
