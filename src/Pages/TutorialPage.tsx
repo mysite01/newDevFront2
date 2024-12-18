@@ -3,6 +3,7 @@ import React from "react";
 import animation from "../layout/image/Beispiel.gif";
 import hostgame from "../layout/image/hostgame.gif";
 import createteam from "../layout/image/createteam.gif";
+import spielbeginnen from "../layout/image/spielbeginnen.gif";
 const TutorialPage: React.FC = () => {
     return (
       <div style={{ padding: "20px" }}>
@@ -63,6 +64,13 @@ const TutorialPage: React.FC = () => {
         />
          <video
           src={createteam}
+          autoPlay
+          loop
+          muted
+          style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
+        />
+          <video
+          src={spielbeginnen}
           autoPlay
           loop
           muted
