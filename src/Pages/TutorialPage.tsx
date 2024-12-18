@@ -4,6 +4,7 @@ import animation from "../layout/image/Beispiel.gif";
 import hostgame from "../layout/image/hostgame.gif";
 import createteam from "../layout/image/createteam.gif";
 import spielbeginnen from "../layout/image/spielbeginnen.gif";
+import endgame from "../layout/image/Endgame.gif";
 const TutorialPage: React.FC = () => {
     return (
       <div style={{ padding: "20px" }}>
@@ -84,6 +85,13 @@ const TutorialPage: React.FC = () => {
             Wenn das Spiel beendet werden soll, kannst du es aus dem Spiel heraus mit “End Game” beenden.
             Anschließend sollten alle Spieler im Auswertung-Screen landen.
           </p>
+          <video
+          src={endgame}
+          autoPlay
+          loop
+          muted
+          style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
+        />
         </section>
       </div>
     );
