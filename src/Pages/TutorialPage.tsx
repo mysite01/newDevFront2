@@ -1,7 +1,8 @@
 import React from "react";
 //import animation from "./image/Beispiel.mp4"; // Pfad zum MP4-Video
 import animation from "../layout/image/Beispiel.gif";
-
+import hostgame from "../layout/image/hostgame.gif";
+import createteam from "../layout/image/createteam.gif";
 const TutorialPage: React.FC = () => {
     return (
       <div style={{ padding: "20px" }}>
@@ -56,11 +57,17 @@ const TutorialPage: React.FC = () => {
             </li>
             <li>
               Wenn alle Spieler beigetreten und in einem Team sind, startest du das Spiel über “Start Game”.
-            </li>
-          </ol>
-        </section>
-  
-        <section style={{ marginTop: "20px" }}>
+              </li>
+        </ol>
+        <div style={{ marginTop: "20px", textAlign: "center" }}>
+          <img src={hostgame} alt="Host Game" style={{ maxWidth: "100%", borderRadius: "8px" }} />
+        </div>
+        <div style={{ marginTop: "20px", textAlign: "center" }}>
+          <img src={createteam} alt="Create Teams" style={{ maxWidth: "100%", borderRadius: "8px" }} />
+        </div>
+      </section>
+
+      <section style={{ marginTop: "20px" }}>
           <h2>Spiel beenden</h2>
           <p>
             Wenn das Spiel beendet werden soll, kannst du es aus dem Spiel heraus mit “End Game” beenden.
