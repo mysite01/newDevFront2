@@ -147,17 +147,17 @@ const TutorialPage: React.FC = () => {
 
                     Nähere dich einem Pick Point um diesen zu Claimen und Punkte zu sammeln.
                     Du kannst mit dem Button “View Teams” die Teams und ihre Gesamtpunktzahl sehen.
-
-                </p>
-                Spiel beenden
-                Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.
-                <video
+                    <video
                     src={spielbeginnen}
                     autoPlay
                     loop
                     muted
                     style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
                 />
+                </p>
+                Spiel beenden
+                Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.
+            
                 <video
                     src={endgame}
                     autoPlay
