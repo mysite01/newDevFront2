@@ -5,6 +5,8 @@ import hostgame from "../layout/image/hostgame.gif";
 import createteam from "../layout/image/createteam.gif";
 import spielbeginnen from "../layout/image/spielbeginnen.gif";
 import endgame from "../layout/image/Endgame.gif";
+import jointeam from "../layout/image/jointeam.gif";
+import joinwithcode from "../layout/image/joinwithcode.gif";
 const TutorialPage: React.FC = () => {
     return (
       <div style={{ padding: "20px" }}>
@@ -111,6 +113,20 @@ const TutorialPage: React.FC = () => {
         <p>
           Melde dem Host, wenn dein Team feststeht, und warte auf den Spielstart.
         </p>
+        <video
+          src={jointeam}
+          autoPlay
+          loop
+          muted
+          style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
+        />
+         <video
+          src={joinwithcode}
+          autoPlay
+          loop
+          muted
+          style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
+        />
       </section>
     </div>
   );
