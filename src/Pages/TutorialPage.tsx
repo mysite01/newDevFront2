@@ -133,31 +133,34 @@ const TutorialPage: React.FC = () => {
 
 
             <section style={{ marginTop: "20px" }}>
-                <h2>Die Spieler</h2>
-                <p>Warte auf die Bestätigung des Hosts, dass das Spiel vorbereitet ist.</p>
-                <p>Auf dem Host-Bildschirm wird ein QR-Code angezeigt:</p>
-                <p>Scanne den QR-Code und folge dem Link.</p>
-                <p>Alternativ: nutze einen geteilten Link oder gib den Spiel-Code auf der App-Startseite ein.</p>
-                <p>
-                    Solltest du nicht angemeldet sein, gib deinen gewünschten Spielernamen ins Eingabefeld ein und bestätige mit „Save“.
+                <h2>Das Spiel</h2>
+                <p>Du bekommst jetzt eine Benachrichtigung in deinem Browser, die dich auffordert, den Standortzugriff zuzulassen.</p>
+                <p>Das ist unbedingt notwendig für das Verwenden der App. </p>
+                <p>Sobald du auf “Zulassen” drückst, solltest du die Karte mit einigen Pick Point (gelb), sowie
+                    deinem eigenen Standort (weiß-rot) sehen.
                 </p>
-                <p>Tritt einem Team bei:</p>
+                <p>Drückst du auf einen Pick Point, so öffnet sich ein Fenster mit einer kurzen Beschreibung des Pick Point, sowie einem Button für das Claimen.
+                </p>
+                <p>
+                Probiere einen der Pick Points zu Claimen. Du solltest eine Nachricht bekommen, mit der aktuellen Distanz zum Pick Point. 
+                </p>
+                <p>Nähere dich einem Pick Point um diesen zu Claimen und Punkte zu sammeln. </p>
                 <ul>
-                    <li>Drücke „Join Team“.</li>
-                    <li>Du kannst dein Team wechseln mit „Leave Team“ und erneut „Join Team“.</li>
+                    <li>Du kannst mit dem Button “View Teams” die Teams und ihre Gesamtpunktzahl sehen.</li>
+                    <li>Spiel beenden</li>
                 </ul>
                 <p>
-                    Melde dem Host, wenn dein Team feststeht, und warte auf den Spielstart.
+                Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.
                 </p>
                 <video
-                    src={jointeam}
+                    src={endgame}
                     autoPlay
                     loop
                     muted
                     style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
                 />
                 <video
-                    src={joinwithcode}
+                    src={spielbeginnen}
                     autoPlay
                     loop
                     muted
