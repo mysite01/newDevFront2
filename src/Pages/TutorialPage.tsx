@@ -136,38 +136,32 @@ const TutorialPage: React.FC = () => {
                 <h2>Das Spiel</h2>
                 <p>
                     Du bekommst jetzt eine Benachrichtigung in deinem Browser, die dich auffordert, den Standortzugriff zuzulassen. Das ist unbedingt notwendig für das Verwenden der App.
-
-                    Sobald du auf “Zulassen” drückst, solltest du die Karte mit einigen Pick Point (gelb), sowie
-                    deinem eigenen Standort (weiß-rot) sehen. Drückst du auf einen Pick Point, so öffnet sich ein Fenster mit einer kurzen Beschreibung des Pick Point, sowie einem Button für das Claimen.
-
-
+                    Sobald du auf “Zulassen” drückst, solltest du die Karte mit einigen Pick Point (gelb), sowie deinem eigenen Standort (weiß-rot) sehen. Drückst du auf einen Pick Point, so öffnet sich ein Fenster mit einer kurzen Beschreibung des Pick Point, sowie einem Button für das Claimen.
                 </p>
                 <p>
                     Probiere einen der Pick Points zu Claimen. Du solltest eine Nachricht bekommen, mit der aktuellen Distanz zum Pick Point.
-
                     Nähere dich einem Pick Point um diesen zu Claimen und Punkte zu sammeln.
                     Du kannst mit dem Button “View Teams” die Teams und ihre Gesamtpunktzahl sehen.
-                    <video
-                    src={spielbeginnen}
-                    autoPlay
-                    loop
-                    muted
-                    style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
-                />
                 </p>
-                Spiel beenden
-                Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.
-            
-                <video
-                    src={endgame}
-                    autoPlay
-                    loop
-                    muted
-                    style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
-                />
+                <p><strong>Spiel beenden:</strong> Sind alle Spieler wieder am Startpunkt, drückt der Host auf “End Game”. Alle Spieler sehen jetzt die Punktzahlen aller Teams, sowie die Zeit, die das Spiel gelaufen ist.</p>
+
+                <div style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
+                    <video
+                        src={spielbeginnen}
+                        autoPlay
+                        loop
+                        muted
+                        style={{ maxWidth: "48%", maxHeight: "300px", borderRadius: "8px" }}
+                    />
+                    <video
+                        src={endgame}
+                        autoPlay
+                        loop
+                        muted
+                        style={{ maxWidth: "48%", maxHeight: "300px", borderRadius: "8px" }}
+                    />
+                </div>
             </section>
-
-
 
         </div>
     );
