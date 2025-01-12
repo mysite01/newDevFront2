@@ -19,7 +19,7 @@ const TutorialPage: React.FC = () => {
             <section style={{ marginTop: "20px" }}>
                 <h2>Einführung</h2>
                 <p>
-                    Geo Pick Points ist ein Spiel, welches eine virtuelle Schnitzeljagd in einer beliebigen Umgebung bereitstellt.
+                    Geo Pick Pointss ist ein Spiel, welches eine virtuelle Schnitzeljagd in einer beliebigen Umgebung bereitstellt.
                     Ziel des Spiels ist es, möglichst viele Punkte durch das Claimen von Stationen einzusammeln. Ob ihr miteinander kompetitiv oder gegeneinander in mehreren Teams spielt, ist dabei euch überlassen.
                     Ihr sollt dabei Spaß haben und eine neue Gegend erkunden, indem ihr interessante Punkte besucht und dabei aber auch gegenseitig, durch das Punkte sammeln, ein wenig Herausforderung habt.
                 </p>
@@ -99,6 +99,7 @@ const TutorialPage: React.FC = () => {
             <section style={{ marginTop: "20px" }}>
                 <h2>Die Spieler</h2>
                 <p>Warte auf die Bestätigung des Hosts, dass das Spiel vorbereitet ist.</p>
+                
                 <p>Auf dem Host-Bildschirm wird ein QR-Code angezeigt:</p>
                 <p>Scanne den QR-Code und folge dem Link.</p>
                 <p>Alternativ: nutze einen geteilten Link oder gib den Spiel-Code auf der App-Startseite ein.</p>
