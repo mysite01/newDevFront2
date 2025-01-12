@@ -59,9 +59,8 @@ const LandingPage: React.FC = () => {
         <div className="banner-content" style={{ padding: "5rem" }}>
           <h1 style={{paddingTop: "10vh"}}>Hello, Welcome to Geo Pick Points!</h1>
           <p style={{ marginTop: "1rem", fontSize: "1.2rem", color: "#333" }}>
-    Geo Pick Points is an exciting outdoor game where players explore real-world locations 
-    to complete challenges and earn points. Play as a Game Master to set up the game 
-    or join as a Player to participate in the adventure!
+          "Welcome to Geo Pick Points! Explore your surroundings playfully by collecting points as you discover exciting locations. 
+          Become a game master to create your own games, or join a team as a player and dive into the adventure!"
   </p>
           <HostGame onClick={handleGameStartClick} />
           <ShowNameDialogInput
