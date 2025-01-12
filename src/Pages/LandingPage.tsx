@@ -61,6 +61,7 @@ const LandingPage: React.FC = () => {
           <p style={{ marginTop: "1rem", fontSize: "1.2rem", color: "#333" }}>
           "Welcome to Geo Pick Points! Explore your surroundings playfully by collecting points as you discover exciting locations. 
           Become a game master to create your own games, or join a team as a player and dive into the adventure!"
+          The Team with the most points will win
   </p>
           <HostGame onClick={handleGameStartClick} />
           <ShowNameDialogInput
