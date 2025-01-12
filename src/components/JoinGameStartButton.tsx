@@ -9,7 +9,7 @@ interface Props {
 const JoinGameStartButton: React.FC<Props> = ({ onClick }) => {
     return (
         <Button variant="warning" onClick={onClick} data-testid={'JoinGameStartButton'}>
-            Join Game
+            Join Game with invite code or QR-Code
         </Button>
     );
 };

@@ -13,7 +13,7 @@ const GameStartButton: React.FC<Props> = ({ onClick }) => {
       color:process.env.REACT_APP_COLOR_PRIMARY,
       borderColor:process.env.REACT_APP_COLOR_PRIMARY,
       }} variant="primary" className="btn-space" onClick={onClick} data-testid={'GameStartButton'}>
-      Host Game
+      Host Game and create your own team
     </Button>
   );
 };
