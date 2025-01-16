@@ -4,6 +4,7 @@ import animation from "../layout/image/Beispiel.gif";
 import hostgame from "../layout/image/hostgame.gif";
 import createteam from "../layout/image/createteam.gif";
 import spielbeginnen from "../layout/image/spielbeginnen.gif";
+import SpieleBeginnen from "../layout/image/SpieleBeginnen.gif";
 import endgame from "../layout/image/Endgame.gif";
 import jointeam from "../layout/image/jointeam.gif";
 import joinwithcode from "../layout/image/joinwithcode.gif";
@@ -73,7 +74,7 @@ const TutorialPage: React.FC = () => {
                         style={{ maxWidth: "50%", maxHeight: "300px", borderRadius: "8px" }} // maxWidth und maxHeight hinzugefügt
                     />
                     <video
-                        src={spielbeginnen}
+                        src={SpieleBeginnen}
                         autoPlay
                         loop
                         muted
