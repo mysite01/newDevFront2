@@ -61,8 +61,8 @@ const LandingPage: React.FC = () => {
           <p style={{ marginTop: "1rem", fontSize: "1.2rem", color: "#333" }}>
           
            <strong>What is Geo Pick Points?</strong>
-Geo Pick Points is an exciting game that takes you on a virtual scavenger hunt. You can play solo or in teams, exploring interesting locations while collecting points. Whether cooperative or competitive, the goal is fun and adventure!
-</p>
+           </p>Geo Pick Points is an exciting game that takes you on a virtual scavenger hunt. You can play solo or in teams, exploring interesting locations while collecting points. Whether cooperative or competitive, the goal is fun and adventure!
+
 <p>
 <strong>The best part?</strong>
 Discover new surroundings, claim stations, and compete against each other – and don’t forget to dress appropriately for the weather, as the adventure takes place outdoors!
