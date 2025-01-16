@@ -5,6 +5,7 @@ import hostgame from "../layout/image/hostgame.gif";
 import createteam from "../layout/image/createteam.gif";
 import spielbeginnen from "../layout/image/spielbeginnen.gif";
 import HosterstelltSpiel from "../layout/image/HosterstelltSpiel.gif";
+import SpielStarten from "../layout/image/SpielStarten.gif";
 import endgame from "../layout/image/Endgame.gif";
 import jointeam from "../layout/image/jointeam.gif";
 import joinwithcode from "../layout/image/joinwithcode.gif";
@@ -72,7 +73,7 @@ const TutorialPage: React.FC = () => {
                         Wenn alle Spieler beigetreten und in einem Team sind, startest du das Spiel über “Start Game”.
                     </li>
                     <video
-                        src={HosterstelltSpiel}
+                        src={SpielStarten}
                         autoPlay
                         loop
                         muted
