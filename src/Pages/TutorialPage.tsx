@@ -6,6 +6,7 @@ import createteam from "../layout/image/createteam.gif";
 import spielbeginnen from "../layout/image/spielbeginnen.gif";
 import HosterstelltSpiel from "../layout/image/HosterstelltSpiel.gif";
 import SpielStarten from "../layout/image/SpielStarten.gif";
+import Spielbeenden from "../layout/image/Spielbeenden.gif";
 import endgame from "../layout/image/Endgame.gif";
 import jointeam from "../layout/image/jointeam.gif";
 import joinwithcode from "../layout/image/joinwithcode.gif";
@@ -87,7 +88,7 @@ const TutorialPage: React.FC = () => {
                     Anschließend sollten alle Spieler im Auswertung-Screen landen.
                 </p>
                 <video
-                    src={endgame}
+                    src={Spielbeenden}
                     autoPlay
                     loop
                     muted
